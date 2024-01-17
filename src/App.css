@@ -1,0 +1,66 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+
+.App {
+  text-align: center;
+  font-family: "Courier New", "Lucida Console", "Monaco";
+  font-style: normal;
+  font-weight: bold;
+  background-color: rgba(224, 220, 112, 0.1);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.image {
+  object-fit: scale-down;
+  height: 70%;
+  width: 70%;
+  padding: 5%;
+  padding-top: 5%;
+}
+.card-style {
+  border-width: medium;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(146, 224, 208, 0.45);
+}
+.header-style {
+  padding-bottom: 50px;
+  font-size: calc(3vw + 2vmin);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

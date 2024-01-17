@@ -1,0 +1,31 @@
+img {
+  width: 55px;
+  height: 55px;
+  position: left;
+}
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(192, 45, 26);
+  color: #ffffff;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  left: 50%;
+}
+#dropdown-basic-button {
+  background-color: rgba(165, 157, 160, 0.2);
+  color: black;
+  font-family: "Courier New", "Lucida Console", "Monaco";
+  font-size: calc(5px + 2vmin);
+  border-color: rgba(165, 157, 160, 0.2);
+}
